@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { ScanditSdkModule } from "scandit-sdk-angular";
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ScanditSdkModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
